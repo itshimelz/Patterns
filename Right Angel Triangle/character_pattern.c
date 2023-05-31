@@ -11,7 +11,7 @@ int main()
     {
         for (col = 1; col <= row; col++)
         {
-            printf(" %c", col + 64);
+            printf(" %c", col + 64); // use 'col+96' for small character.
         }
 
         printf("\n");

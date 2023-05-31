@@ -12,7 +12,7 @@ int main()
         // This loop will print only 1 and 0
         for (col = 1; col <= row; col++)
         {
-            printf(" %d", col % 2);
+            printf("%d ", col % 2);
         }
 
         printf("\n");
@@ -20,3 +20,14 @@ int main()
 
     return 0;
 }
+
+
+/* Use 'printf("%d ", row % 2);' to print pattern like this
+
+1 
+0 0 
+1 1 1 
+0 0 0 0 
+1 1 1 1 1 
+
+'*/
